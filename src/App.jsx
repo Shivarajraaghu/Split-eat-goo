@@ -86,8 +86,13 @@ export default function EatSplit() {
 
   return (
     <div
-      className="d-flex flex-column vh-100 vw-100"
-      style={{ overflow: "hidden", backgroundColor: "#111f2eff" }}
+      className="d-flex flex-column"
+      style={{
+    minHeight: "100vh",
+    width: "100%",
+    overflowX: "hidden",
+    backgroundColor: "#111f2eff"
+  }}
     >
       <nav className="navbar navbar-dark bg-primary shadow-sm">
         <div className="container-fluid">
