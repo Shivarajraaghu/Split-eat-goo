@@ -1,0 +1,11 @@
+.bg-dark{
+    background: linear-gradient(65deg,rgb(21, 102, 25),rgb(163, 20, 77));
+    text-align: center;    
+    border-radius: 5px;
+}
+.search{
+    width: 300px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
