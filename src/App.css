@@ -3,9 +3,13 @@
     text-align: center;    
     border-radius: 5px;
 }
-.search{
-    width: 300px;
+
+@media (max-width: 400px) {
+.search {
+    width: 90%;          /* Use most of the available width */
+    max-width: 300px;    /* But no wider than 300px on large screens */
     height: 30px;
     background-color: aliceblue;
     border-radius: 8px;
+}
 }
